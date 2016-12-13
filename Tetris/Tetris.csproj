@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ICoordinates.cs" />
+    <Compile Include="Interfaces\IGameField.cs" />
+    <Compile Include="Interfaces\Objects\IFigure.cs" />
+    <Compile Include="Interfaces\Objects\IDrawable.cs" />
+    <Compile Include="Interfaces\Objects\IObject.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
