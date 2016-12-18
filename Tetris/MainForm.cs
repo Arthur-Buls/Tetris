@@ -26,8 +26,12 @@ namespace Tetris
         private void MainPictureBox_MouseDown(object sender, MouseEventArgs e)
         {
             var graphics = MainPictureBox.CreateGraphics();
+            var line = new Classes.GameFieldGrid();
+            line.Draw(graphics);
 
-            graphics.DrawRectangle(Pens.Red, new Rectangle(e.X-50, e.Y-50, 100, 100));
+            //graphics.DrawRectangle(Pens.Red, new Rectangle(e.X-50, e.Y-50, 100, 100));
+            ///graphics.DrawRectangles(Pens.DarkRed, new FigureL());
+            
         }
     }
 }

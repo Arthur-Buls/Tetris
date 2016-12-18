@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\GameFieldGrid.cs" />
+    <Compile Include="Helpers\ConstantHelper.cs" />
     <Compile Include="Interfaces\ICoordinates.cs" />
     <Compile Include="Interfaces\IGameField.cs" />
     <Compile Include="Interfaces\Objects\IFigure.cs" />
